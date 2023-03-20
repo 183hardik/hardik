@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+}
+a{text-decoration: none;
+  color: black;}
+nav li{
+    display: inline;
+    margin-left: 6vw;
+    font-size: 4.5vh;
+    margin-bottom: 1vh;
+    
+}
+.nav{
+    background-color: aqua;
+    height: 7.5vh; 
+}
+header{
+    z-index: 4;
+    width: 100vw;
+    position: sticky;top: 0;
+   
+}
+.start{
+    background-color: rgb(13, 2, 54);
+    height: 4.8vh;
+    color: white;
+    padding-left: 7vw ;
+    font-size: 2.5VH;
+}
+.main{
+opacity: 0.8;
+background-image: url(backimage.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 70vh;
+}
+.min{
+    height: 30vh;
+    position: relative;left: 5vw;
+    width: 38vw;
+    font-size: 7vh;
+    color: rgb(4, 1, 55);
+    z-index: 1;
+}
+.events{
+    background-color: rgb(236, 237, 238,0.8);
+    height: 70vh;
+    display: flex;
+}
+.conclave{
+    height: 50vh;
+    width: 30vw;
+    background: url(conclave.png) no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    font-size: 2.5vh;
+    align-self: center;
+    justify-content: center;
+    margin-left: 15vw;
+    border-radius: 10PX;
+}
+.cultural{
+    height: 50vh;
+    width: 30vw;
+    background: url(cultural.jpg) no-repeat ;
+    background-size: cover;
+    border: 3px solid black;
+    align-self: center;
+    justify-content: center;
+    margin-left: 10vw;
+    border-radius: 10px;
+
+}
+h2{
+    text-align: center;
+}
+.content{
+    height: 30vh;
+    width: 45vw;
+    margin: auto;
+    background-color: rgb(236, 237, 238,0.8);
+    padding: 2vh;
+    border: 3px solid black;
+}
+#about{
+    background-color: rgb(192, 226, 240);
+    padding: 3vh;
+}
+#blogs{
+    background: url(backimage2.png) no-repeat;
+    background-size: cover;
+    padding: 3vh;
+}
+.blog1{
+    height: 35vh;
+    width: 20vw;
+    background-color:  rgb(192, 226, 240);
+    border: 3px solid black;
+    display: inline-block;
+    margin-left: 12vw;
+    border-radius: 5px;
+}
+.blog2{
+    height: 35vh;
+    width: 20vw;
+    background-color:  rgb(192, 226, 240);
+    border: 3px solid black;
+    display: inline-block;
+    margin-left: 8vw;
+    border-radius: 5px;
+}
+.blog3{
+    height: 35vh;
+    width: 20vw;
+    background-color:  rgb(192, 226, 240);
+    border: 3px solid black;
+    display: inline-block;
+    margin-left: 8vw;
+    border-radius: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.conclave img{
+    opacity: 0.6;
+}
